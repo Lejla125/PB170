@@ -1,0 +1,493 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 8550 2900 1250 1350
+U 6036A600
+F0 "blue" 50
+F1 "blue.sch" 50
+F2 "I1I2I3" I L 8550 3300 50 
+F3 "I1" I L 8550 3550 50 
+F4 "I2" I L 8550 3850 50 
+F5 "nQ2" I R 9800 3600 50 
+F6 "nI2" I L 8550 3700 50 
+F7 "Q2" I R 9800 3700 50 
+F8 "Q1Q2" I R 9800 3350 50 
+F9 "I3" I L 8550 4150 50 
+F10 "nI2I3" I L 8550 3000 50 
+F11 "nI1I2" I L 8550 3100 50 
+F12 "nI3" I L 8550 4050 50 
+F13 "nQ1nQ2" I R 9800 3200 50 
+$EndSheet
+$Sheet
+S 3550 2900 1350 1350
+U 603B7AAD
+F0 "green" 50
+F1 "green.sch" 50
+F2 "nQ1Q2" I R 4900 3250 50 
+F3 "I1" I L 3550 3550 50 
+F4 "I2" I L 3550 3800 50 
+F5 "Q1nQ2" I R 4900 3350 50 
+F6 "I1I2I3" I L 3550 3100 50 
+F7 "Q2" I R 4900 3600 50 
+F8 "nI3" I L 3550 4050 50 
+F9 "nQ2" I R 4900 3500 50 
+F10 "nI2I3" I L 3550 3000 50 
+$EndSheet
+$Sheet
+S 1150 2900 1300 1350
+U 602CF3FD
+F0 "yellow" 50
+F1 "yellow.sch" 50
+F2 "I1I2I3" I L 1150 3100 50 
+F3 "I1" I L 1150 3550 50 
+F4 "nQ2" I R 2450 3500 50 
+F5 "I3" I L 1150 4150 50 
+F6 "nQ1nQ2" I R 2450 3250 50 
+F7 "Q1" I R 2450 3800 50 
+F8 "Q2" I R 2450 3600 50 
+F9 "nI1I2nI3" I L 1150 3000 50 
+$EndSheet
+Wire Wire Line
+	1150 1850 1100 1850
+Wire Wire Line
+	1100 1850 1100 2800
+Wire Wire Line
+	1100 3000 1150 3000
+Wire Wire Line
+	1150 3100 1050 3100
+Wire Wire Line
+	1050 3100 1050 1750
+Wire Wire Line
+	1050 1750 1150 1750
+Wire Wire Line
+	1150 3550 950  3550
+Wire Wire Line
+	950  3550 950  2700
+Wire Wire Line
+	950  1400 1150 1400
+Wire Wire Line
+	850  1100 1150 1100
+Wire Wire Line
+	800  900  1150 900 
+Wire Wire Line
+	1150 800  750  800 
+Wire Wire Line
+	750  800  750  2500
+Wire Wire Line
+	750  4150 1150 4150
+Wire Wire Line
+	2500 1900 3500 1900
+Wire Wire Line
+	3500 1900 3500 3000
+Wire Wire Line
+	3500 3000 3550 3000
+Wire Wire Line
+	1100 2800 3450 2800
+Wire Wire Line
+	3450 2800 3450 3100
+Wire Wire Line
+	3450 3100 3550 3100
+Connection ~ 1100 2800
+Wire Wire Line
+	1100 2800 1100 3000
+Wire Wire Line
+	950  2700 3400 2700
+Wire Wire Line
+	3400 2700 3400 3550
+Wire Wire Line
+	3400 3550 3550 3550
+Connection ~ 950  2700
+Wire Wire Line
+	850  2650 3350 2650
+Wire Wire Line
+	3350 2650 3350 3800
+Wire Wire Line
+	3350 3800 3550 3800
+Wire Wire Line
+	850  2650 850  1100
+Wire Wire Line
+	3300 2600 3300 4050
+Wire Wire Line
+	3300 4050 3550 4050
+Wire Wire Line
+	800  2600 800  900 
+$Sheet
+S 6050 2900 1400 1350
+U 6022E3C4
+F0 "red" 50
+F1 "red.sch" 50
+F2 "I1I2I3" I L 6050 3300 50 
+F3 "I1" I L 6050 3550 50 
+F4 "nI2" I L 6050 3700 50 
+F5 "nQ2" I R 7450 3600 50 
+F6 "nI3" I L 6050 4050 50 
+F7 "Q2" I R 7450 3700 50 
+F8 "Q1nQ2" I R 7450 3350 50 
+F9 "nI2I3" I L 6050 3000 50 
+F10 "nI1I2" I L 6050 3100 50 
+F11 "nQ1Q2" I R 7450 3250 50 
+F12 "I1I2" I L 6050 3200 50 
+$EndSheet
+Wire Wire Line
+	3500 1900 6000 1900
+Wire Wire Line
+	6000 1900 6000 3000
+Wire Wire Line
+	6000 3000 6050 3000
+Connection ~ 3500 1900
+Wire Wire Line
+	2500 2050 5950 2050
+Wire Wire Line
+	5950 2050 5950 3100
+Wire Wire Line
+	5950 3100 6050 3100
+Wire Wire Line
+	2500 2200 5900 2200
+Wire Wire Line
+	5900 2200 5900 3200
+Wire Wire Line
+	5900 3200 6050 3200
+Wire Wire Line
+	3450 2800 5850 2800
+Wire Wire Line
+	5850 2800 5850 3300
+Wire Wire Line
+	5850 3300 6050 3300
+Connection ~ 3450 2800
+Wire Wire Line
+	5800 2700 5800 3550
+Wire Wire Line
+	5800 3550 6050 3550
+Connection ~ 3400 2700
+Wire Wire Line
+	800  2600 3300 2600
+Wire Wire Line
+	950  2700 950  1400
+Wire Wire Line
+	3400 2700 5800 2700
+Wire Wire Line
+	1150 1200 900  1200
+Wire Wire Line
+	900  1200 900  2550
+Wire Wire Line
+	900  2550 5750 2550
+Wire Wire Line
+	5750 2550 5750 3700
+Wire Wire Line
+	5750 3700 6050 3700
+Wire Wire Line
+	3300 2600 5700 2600
+Wire Wire Line
+	5700 2600 5700 4050
+Wire Wire Line
+	5700 4050 6050 4050
+Connection ~ 3300 2600
+Wire Wire Line
+	6000 1900 8500 1900
+Wire Wire Line
+	8500 1900 8500 3000
+Wire Wire Line
+	8500 3000 8550 3000
+Connection ~ 6000 1900
+Wire Wire Line
+	5950 2050 8450 2050
+Wire Wire Line
+	8450 2050 8450 3100
+Wire Wire Line
+	8450 3100 8550 3100
+Connection ~ 5950 2050
+Wire Wire Line
+	5850 2800 8400 2800
+Wire Wire Line
+	8400 2800 8400 3300
+Wire Wire Line
+	8400 3300 8550 3300
+Connection ~ 5850 2800
+Wire Wire Line
+	5800 2700 8350 2700
+Wire Wire Line
+	8350 2700 8350 3550
+Wire Wire Line
+	8350 3550 8550 3550
+Connection ~ 5800 2700
+Wire Wire Line
+	5750 2550 8300 2550
+Wire Wire Line
+	8300 2550 8300 3700
+Wire Wire Line
+	8300 3700 8550 3700
+Connection ~ 5750 2550
+Wire Wire Line
+	3350 2650 8250 2650
+Wire Wire Line
+	8250 2650 8250 3850
+Wire Wire Line
+	8250 3850 8550 3850
+Connection ~ 3350 2650
+Wire Wire Line
+	5700 2600 8200 2600
+Wire Wire Line
+	8200 2600 8200 4050
+Wire Wire Line
+	8200 4050 8550 4050
+Connection ~ 5700 2600
+Wire Wire Line
+	750  2500 8150 2500
+Wire Wire Line
+	8150 2500 8150 4150
+Wire Wire Line
+	8150 4150 8550 4150
+Connection ~ 750  2500
+Wire Wire Line
+	750  2500 750  4150
+Wire Wire Line
+	2450 5000 2500 5000
+Wire Wire Line
+	2500 5000 2500 3800
+Wire Wire Line
+	2500 3800 2450 3800
+$Sheet
+S 1150 4800 1300 1500
+U 602DED64
+F0 "flipflops" 50
+F1 "flipflops.sch" 50
+F2 "Q1" I R 2450 5000 50 
+F3 "Q2" I R 2450 5300 50 
+F4 "nQ2" I R 2450 5450 50 
+F5 "nQ1nQ2" I R 2450 5650 50 
+F6 "Q1nQ2" I R 2450 5800 50 
+F7 "nQ1Q2" I R 2450 5950 50 
+$EndSheet
+Wire Wire Line
+	2450 5300 2550 5300
+Wire Wire Line
+	2550 5300 2550 3600
+Wire Wire Line
+	2550 3600 2450 3600
+Wire Wire Line
+	2450 5450 2600 5450
+Wire Wire Line
+	2600 5450 2600 3500
+Wire Wire Line
+	2600 3500 2450 3500
+Wire Wire Line
+	2450 5650 2650 5650
+Wire Wire Line
+	2650 5650 2650 3250
+Wire Wire Line
+	2650 3250 2450 3250
+Wire Wire Line
+	2550 5300 4950 5300
+Wire Wire Line
+	4950 5300 4950 3600
+Wire Wire Line
+	4950 3600 4900 3600
+Connection ~ 2550 5300
+Wire Wire Line
+	2600 5450 5000 5450
+Wire Wire Line
+	5000 5450 5000 3500
+Wire Wire Line
+	5000 3500 4900 3500
+Connection ~ 2600 5450
+Wire Wire Line
+	2450 5800 5050 5800
+Wire Wire Line
+	5050 5800 5050 3350
+Wire Wire Line
+	5050 3350 4900 3350
+Wire Wire Line
+	2450 5950 5100 5950
+Wire Wire Line
+	5100 5950 5100 3250
+Wire Wire Line
+	5100 3250 4900 3250
+Wire Wire Line
+	4950 5300 7500 5300
+Wire Wire Line
+	7500 5300 7500 3700
+Wire Wire Line
+	7500 3700 7450 3700
+Connection ~ 4950 5300
+Wire Wire Line
+	5000 5450 7550 5450
+Wire Wire Line
+	7550 5450 7550 3600
+Wire Wire Line
+	7550 3600 7450 3600
+Connection ~ 5000 5450
+Wire Wire Line
+	5050 5800 7600 5800
+Wire Wire Line
+	7600 5800 7600 3350
+Wire Wire Line
+	7600 3350 7450 3350
+Connection ~ 5050 5800
+Wire Wire Line
+	5100 5950 7650 5950
+Wire Wire Line
+	7650 5950 7650 3250
+Wire Wire Line
+	7650 3250 7450 3250
+Connection ~ 5100 5950
+Wire Wire Line
+	7500 5300 9850 5300
+Wire Wire Line
+	9850 5300 9850 3700
+Wire Wire Line
+	9850 3700 9800 3700
+Connection ~ 7500 5300
+Wire Wire Line
+	7550 5450 9900 5450
+Wire Wire Line
+	9900 5450 9900 3600
+Wire Wire Line
+	9900 3600 9800 3600
+Connection ~ 7550 5450
+Wire Wire Line
+	7600 5800 9950 5800
+Wire Wire Line
+	9950 5800 9950 3350
+Wire Wire Line
+	9950 3350 9800 3350
+Connection ~ 7600 5800
+Wire Wire Line
+	2650 5650 10000 5650
+Wire Wire Line
+	10000 5650 10000 3200
+Wire Wire Line
+	10000 3200 9800 3200
+Connection ~ 2650 5650
+$Sheet
+S 1150 700  1350 1600
+U 601FE8E5
+F0 "button" 50
+F1 "button.sch" 50
+F2 "I3" I L 1150 800 50 
+F3 "I2" I L 1150 1100 50 
+F4 "I1" I L 1150 1400 50 
+F5 "nI3" I L 1150 900 50 
+F6 "nI2" I L 1150 1200 50 
+F7 "nI1" I L 1150 1500 50 
+F8 "I1I2I3" I L 1150 1750 50 
+F9 "nI1I2nI3" I L 1150 1850 50 
+F10 "nI2I3" I R 2500 1900 50 
+F11 "nI1I2" I R 2500 2050 50 
+F12 "I1I2" I R 2500 2200 50 
+$EndSheet
+$Comp
+L PB170:USB_B_Micro-Connector J1
+U 1 1 602B18AD
+P 9900 1250
+F 0 "J1" H 9957 1717 50  0000 C CNN
+F 1 "USB_B_Micro-Connector" H 9957 1626 50  0000 C CNN
+F 2 "PB170:MICRO-USB-SMD_MICROXNJ" H 10050 1200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_SHOU-HAN-MicroXNJ_C404969.pdf" H 10050 1200 50  0001 C CNN
+F 4 "C404969" H 9900 1250 50  0001 C CNN "LCSC"
+	1    9900 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L strom-rescue:+5V-power-PB170-rescue #PWR0101
+U 1 1 60397CD8
+P 10600 950
+F 0 "#PWR0101" H 10600 800 50  0001 C CNN
+F 1 "+5V-power" H 10615 1123 50  0000 C CNN
+F 2 "" H 10600 950 50  0001 C CNN
+F 3 "" H 10600 950 50  0001 C CNN
+	1    10600 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 1050 10600 1050
+Wire Wire Line
+	10600 1050 10600 950 
+Text GLabel 10600 1050 2    50   Input ~ 0
+VCC
+$Comp
+L strom-rescue:R-Device-PB170-rescue R9
+U 1 1 6039CB11
+P 10350 1350
+F 0 "R9" H 10420 1396 50  0000 L CNN
+F 1 "220R" H 10420 1305 50  0000 L CNN
+F 2 "PB170:R0603" V 10280 1350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF2200T5E_C22962.pdf" H 10350 1350 50  0001 C CNN
+F 4 "C22962" H 10350 1350 50  0001 C CNN "LCSC"
+	1    10350 1350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10200 1250 10600 1250
+Wire Wire Line
+	10600 1250 10600 1350
+Wire Wire Line
+	10600 1350 10500 1350
+NoConn ~ 10200 1450
+$Comp
+L strom-rescue:GND-power-PB170-rescue #PWR0102
+U 1 1 603AEA52
+P 9800 1800
+F 0 "#PWR0102" H 9800 1550 50  0001 C CNN
+F 1 "GND-power" H 9805 1627 50  0000 C CNN
+F 2 "" H 9800 1800 50  0001 C CNN
+F 3 "" H 9800 1800 50  0001 C CNN
+	1    9800 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 1650 9800 1700
+Wire Wire Line
+	9900 1650 9900 1700
+Wire Wire Line
+	9900 1700 9800 1700
+Connection ~ 9800 1700
+Wire Wire Line
+	9800 1700 9800 1800
+Text GLabel 9800 1700 0    50   Input ~ 0
+GND
+$Comp
+L strom-rescue:LED-Device D1
+U 1 1 602BD82C
+P 10450 1850
+F 0 "D1" H 10443 2067 50  0000 C CNN
+F 1 "LED-Device" H 10443 1976 50  0000 C CNN
+F 2 "PB170:LED0603-R-RD" H 10450 1850 50  0001 C CNN
+F 3 "Hubei KENTO Elec white 0805" H 10450 1850 50  0001 C CNN
+F 4 "C34499" H 10450 1850 50  0001 C CNN "LCSC"
+	1    10450 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L strom-rescue:R-Device R10
+U 1 1 602C00EE
+P 10800 1850
+AR Path="/602C00EE" Ref="R10"  Part="1" 
+AR Path="/603B7AAD/602C00EE" Ref="R?"  Part="1" 
+F 0 "R10" H 10870 1896 50  0000 L CNN
+F 1 "180R" H 10870 1805 50  0000 L CNN
+F 2 "PB170:R0603" V 10730 1850 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1800T5E_C22828.pdf" H 10800 1850 50  0001 C CNN
+F 4 "C22828" H 10800 1850 50  0001 C CNN "LCSC"
+	1    10800 1850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10650 1850 10600 1850
+Text GLabel 10950 1850 2    50   Input ~ 0
+VCC
+Text GLabel 10300 1850 0    50   Input ~ 0
+GND
+$EndSCHEMATC

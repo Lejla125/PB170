@@ -1,0 +1,210 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	5500 3100 5500 3250
+Wire Wire Line
+	5350 3100 5500 3100
+$Comp
+L PB170:74HC08 U?
+U 4 1 60379F27
+P 5350 2800
+AR Path="/60379F27" Ref="U?"  Part="4" 
+AR Path="/602CF3FD/60379F27" Ref="U7"  Part="4" 
+F 0 "U7" V 5329 2930 50  0000 L CNN
+F 1 "74HC08" V 5420 2930 50  0000 L CNN
+F 2 "PB170:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL" H 5350 2800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC08D-653_C5593.pdf" H 5350 2800 50  0001 C CNN
+F 4 "C5593" H 5350 2800 50  0001 C CNN "LCSC"
+	4    5350 2800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5350 3800 5550 3800
+$Comp
+L PB170:74HC08 U?
+U 3 1 60379F2F
+P 5550 3500
+AR Path="/60379F2F" Ref="U?"  Part="3" 
+AR Path="/602CF3FD/60379F2F" Ref="U7"  Part="3" 
+F 0 "U7" V 5529 3630 50  0000 L CNN
+F 1 "74HC08" V 5620 3630 50  0000 L CNN
+F 2 "PB170:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL" H 5550 3500 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC08D-653_C5593.pdf" H 5550 3500 50  0001 C CNN
+F 4 "C5593" H 5550 3500 50  0001 C CNN "LCSC"
+	3    5550 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5100 3800 5250 3800
+$Comp
+L PB170:74HC08 U?
+U 2 1 60379F39
+P 5100 3500
+AR Path="/60379F39" Ref="U?"  Part="2" 
+AR Path="/602CF3FD/60379F39" Ref="U7"  Part="2" 
+F 0 "U7" V 5079 3630 50  0000 L CNN
+F 1 "74HC08" V 5170 3630 50  0000 L CNN
+F 2 "PB170:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL" H 5100 3500 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC08D-653_C5593.pdf" H 5100 3500 50  0001 C CNN
+F 4 "C5593" H 5100 3500 50  0001 C CNN "LCSC"
+	2    5100 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4050 4250 4650 4250
+$Comp
+L PB170:74HC32 Y?
+U 5 1 60379F4B
+P 6650 5550
+AR Path="/60379F4B" Ref="Y?"  Part="5" 
+AR Path="/602CF3FD/60379F4B" Ref="Y2"  Part="5" 
+F 0 "Y2" H 6528 5596 50  0000 L CNN
+F 1 "74HC32" H 6528 5505 50  0000 L CNN
+F 2 "PB170:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL" H 6100 5750 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC32D-653_C5632.pdf" H 6100 5750 50  0001 C CNN
+F 4 "C5632" H 6650 5550 50  0001 C CNN "LCSC"
+	5    6650 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PB170:74HC32 Y?
+U 1 1 60379F60
+P 4700 4500
+AR Path="/60379F60" Ref="Y?"  Part="1" 
+AR Path="/602CF3FD/60379F60" Ref="Y2"  Part="1" 
+F 0 "Y2" H 4675 4775 50  0000 C CNN
+F 1 "74HC32" H 4675 4684 50  0000 C CNN
+F 2 "PB170:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL" H 4150 4700 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC32D-653_C5632.pdf" H 4150 4700 50  0001 C CNN
+F 4 "C5632" H 4700 4500 50  0001 C CNN "LCSC"
+	1    4700 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L strom-rescue:R-Device R?
+U 1 1 60379F67
+P 4700 4850
+AR Path="/60379F67" Ref="R?"  Part="1" 
+AR Path="/602CF3FD/60379F67" Ref="R1"  Part="1" 
+F 0 "R1" H 4770 4896 50  0000 L CNN
+F 1 "180R" H 4770 4805 50  0000 L CNN
+F 2 "PB170:R0603" V 4630 4850 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1800T5E_C22828.pdf" H 4700 4850 50  0001 C CNN
+F 4 "C22828" H 4700 4850 50  0001 C CNN "LCSC"
+	1    4700 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L strom-rescue:LED-Device Y?
+U 1 1 60379F6E
+P 4700 5150
+AR Path="/60379F6E" Ref="Y?"  Part="1" 
+AR Path="/602CF3FD/60379F6E" Ref="Y1"  Part="1" 
+F 0 "Y1" V 4739 5032 50  0000 R CNN
+F 1 "LED" V 4648 5032 50  0000 R CNN
+F 2 "PB170:LED0603-R-RD" H 4700 5150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Everlight-Elec-19-213-Y2C-CQ2R2L-3T-CY_C72038.pdf" H 4700 5150 50  0001 C CNN
+F 4 "C72038" H 4700 5150 50  0001 C CNN "LCSC"
+	1    4700 5150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PB170:74HC08 U7
+U 5 1 6037B432
+P 6650 5050
+F 0 "U7" H 6880 5096 50  0000 L CNN
+F 1 "74HC08" H 6880 5005 50  0000 L CNN
+F 2 "PB170:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL" H 6650 5050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC08D-653_C5593.pdf" H 6650 5050 50  0001 C CNN
+F 4 "C5593" H 6650 5050 50  0001 C CNN "LCSC"
+	5    6650 5050
+	0    -1   -1   0   
+$EndComp
+Text GLabel 4700 5600 3    50   Input ~ 0
+GND
+Wire Wire Line
+	4700 5300 4700 5600
+Text HLabel 5050 3250 1    50   Input ~ 0
+I3
+Text HLabel 5150 3250 1    50   Input ~ 0
+nQ1nQ2
+Text GLabel 7150 5350 2    50   Input ~ 0
+GND
+Text HLabel 5300 2550 1    50   Input ~ 0
+Q1
+Text HLabel 5400 2550 1    50   Input ~ 0
+Q2
+Wire Wire Line
+	6300 5850 6150 5850
+Wire Wire Line
+	6150 5850 6150 5050
+Wire Wire Line
+	7000 5850 7150 5850
+Wire Wire Line
+	7150 5850 7150 5050
+Wire Wire Line
+	4750 4250 5300 4250
+Text HLabel 5600 3250 1    50   Input ~ 0
+nI1I2nI3
+Text GLabel 6150 5350 0    50   Input ~ 0
+VCC
+Text HLabel 4050 3250 1    50   Input ~ 0
+nQ2
+Text HLabel 3950 3250 1    50   Input ~ 0
+I1
+Text HLabel 4500 3800 1    50   Input ~ 0
+I1I2I3
+$Comp
+L PB170:74HC08 U?
+U 1 1 60379F42
+P 4000 3500
+AR Path="/60379F42" Ref="U?"  Part="1" 
+AR Path="/602CF3FD/60379F42" Ref="U7"  Part="1" 
+F 0 "U7" V 3979 3630 50  0000 L CNN
+F 1 "74HC08" V 4070 3630 50  0000 L CNN
+F 2 "PB170:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL" H 4000 3500 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC08D-653_C5593.pdf" H 4000 3500 50  0001 C CNN
+F 4 "C5593" H 4000 3500 50  0001 C CNN "LCSC"
+	1    4000 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L PB170:74HC32 Y2
+U 4 1 60319C31
+P 5300 4050
+F 0 "Y2" H 5275 4325 50  0000 C CNN
+F 1 "74HC32" H 5275 4234 50  0000 C CNN
+F 2 "PB170:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL" H 4750 4250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC32D-653_C5632.pdf" H 4750 4250 50  0001 C CNN
+F 4 "C5632" H 5300 4050 50  0001 C CNN "LCSC"
+	4    5300 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L PB170:74HC32 Y2
+U 3 1 6032E31B
+P 4050 4050
+F 0 "Y2" V 3979 4188 50  0000 L CNN
+F 1 "74HC32" V 4070 4188 50  0000 L CNN
+F 2 "PB170:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL" H 3500 4250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC32D-653_C5632.pdf" H 3500 4250 50  0001 C CNN
+F 4 "C5632" H 4050 4050 50  0001 C CNN "LCSC"
+	3    4050 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4100 3800 4500 3800
+$EndSCHEMATC

@@ -1,0 +1,430 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L strom-rescue:74HC74-74xx U1
+U 2 1 601F6ED2
+P 4400 1950
+AR Path="/601F6ED2" Ref="U1"  Part="2" 
+AR Path="/601FE8E5/601F6ED2" Ref="U1"  Part="2" 
+F 0 "U1" H 4400 2431 50  0000 C CNN
+F 1 "74HC74" H 4400 2340 50  0000 C CNN
+F 2 "PB170:TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL" H 4400 1950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-SN74HC74PWR_C6761.pdf" H 4400 1950 50  0001 C CNN
+F 4 "C6761" H 4400 1950 50  0001 C CNN "LCSC"
+	2    4400 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L strom-rescue:74HC74-74xx U1
+U 3 1 601F796F
+P 8600 1150
+AR Path="/601F796F" Ref="U1"  Part="3" 
+AR Path="/601FE8E5/601F796F" Ref="U1"  Part="3" 
+F 0 "U1" H 8830 1196 50  0000 L CNN
+F 1 "74HC74" H 8830 1105 50  0000 L CNN
+F 2 "PB170:TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL" H 8600 1150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-SN74HC74PWR_C6761.pdf" H 8600 1150 50  0001 C CNN
+F 4 "C6761" H 8600 1150 50  0001 C CNN "LCSC"
+	3    8600 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L strom-rescue:74HC74-74xx U2
+U 1 1 601F844A
+P 5600 1950
+AR Path="/601F844A" Ref="U2"  Part="1" 
+AR Path="/601FE8E5/601F844A" Ref="U2"  Part="1" 
+F 0 "U2" H 5600 2431 50  0000 C CNN
+F 1 "74HC74" H 5600 2340 50  0000 C CNN
+F 2 "PB170:TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL" H 5600 1950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-SN74HC74PWR_C6761.pdf" H 5600 1950 50  0001 C CNN
+F 4 "C6761" H 5600 1950 50  0001 C CNN "LCSC"
+	1    5600 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L strom-rescue:74HC74-74xx U2
+U 3 1 601F8BCE
+P 8600 2000
+AR Path="/601F8BCE" Ref="U2"  Part="3" 
+AR Path="/601FE8E5/601F8BCE" Ref="U2"  Part="3" 
+F 0 "U2" H 8830 2046 50  0000 L CNN
+F 1 "74HC74" H 8830 1955 50  0000 L CNN
+F 2 "PB170:TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL" H 8600 2000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-SN74HC74PWR_C6761.pdf" H 8600 2000 50  0001 C CNN
+F 4 "C6761" H 8600 2000 50  0001 C CNN "LCSC"
+	3    8600 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2800 1850 2650 1850
+Wire Wire Line
+	2650 1850 2650 1400
+Wire Wire Line
+	2650 1400 3600 1400
+Wire Wire Line
+	3600 1400 3600 2050
+Wire Wire Line
+	3600 2050 3400 2050
+Wire Wire Line
+	3600 2050 4000 2050
+Wire Wire Line
+	4000 2050 4000 1950
+Wire Wire Line
+	4000 1950 4100 1950
+Connection ~ 3600 2050
+Wire Wire Line
+	4100 1850 3950 1850
+Wire Wire Line
+	3950 1850 3950 1400
+Wire Wire Line
+	3950 1400 4900 1400
+Wire Wire Line
+	4900 1400 4900 2050
+Wire Wire Line
+	4900 2050 4700 2050
+Wire Wire Line
+	4900 2050 5200 2050
+Wire Wire Line
+	5200 2050 5200 1950
+Wire Wire Line
+	5200 1950 5300 1950
+Connection ~ 4900 2050
+$Comp
+L strom-rescue:74HC74-74xx U1
+U 1 1 601F6807
+P 3100 1950
+AR Path="/601F6807" Ref="U1"  Part="1" 
+AR Path="/601FE8E5/601F6807" Ref="U1"  Part="1" 
+F 0 "U1" H 3100 2431 50  0000 C CNN
+F 1 "74HC74" H 3100 2340 50  0000 C CNN
+F 2 "PB170:TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL" H 3100 1950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-SN74HC74PWR_C6761.pdf" H 3100 1950 50  0001 C CNN
+F 4 "C6761" H 3100 1950 50  0001 C CNN "LCSC"
+	1    3100 1950
+	1    0    0    -1  
+$EndComp
+Text HLabel 3850 2400 0    50   Input ~ 0
+I3
+Text HLabel 5050 2400 0    50   Input ~ 0
+I2
+Text HLabel 6050 2400 0    50   Input ~ 0
+I1
+$Comp
+L strom-rescue:Switch_SW_MEC_5E-PB170-cache SW1
+U 1 1 6020466F
+P 1750 1500
+F 0 "SW1" H 1750 1885 50  0000 C CNN
+F 1 "Switch_SW_MEC_5E" H 1750 1794 50  0000 C CNN
+F 2 "PB170:TactileSwitch_C381064" H 1750 1800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2002271744_XKB-Connectivity-TS-1102S-B-G-B_C381064.pdf" H 1750 1800 50  0001 C CNN
+F 4 "C381064" H 1750 1500 50  0001 C CNN "LCSC"
+	1    1750 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 1400 1550 1500
+Wire Wire Line
+	1550 1500 1550 1800
+Wire Wire Line
+	1550 1800 1600 1800
+Connection ~ 1550 1500
+Wire Wire Line
+	1900 1800 1950 1800
+Wire Wire Line
+	1950 1800 1950 1500
+Connection ~ 1950 1500
+Wire Wire Line
+	1950 1500 1950 1400
+Wire Wire Line
+	1950 1400 2200 1400
+Wire Wire Line
+	2450 1400 2450 1950
+Wire Wire Line
+	2450 1950 2800 1950
+Connection ~ 1950 1400
+$Comp
+L strom-rescue:R-Device R5
+U 1 1 60208FA2
+P 2200 1550
+F 0 "R5" H 2270 1596 50  0000 L CNN
+F 1 "10k" H 2270 1505 50  0000 L CNN
+F 2 "PB170:R0603" V 2130 1550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 2200 1550 50  0001 C CNN
+F 4 "C25804" H 2200 1550 50  0001 C CNN "LCSC"
+	1    2200 1550
+	1    0    0    -1  
+$EndComp
+Connection ~ 2200 1400
+Wire Wire Line
+	2200 1400 2450 1400
+$Comp
+L strom-rescue:Device_C-PB170-cache C1
+U 1 1 602063B5
+P 1750 1800
+F 0 "C1" V 1498 1800 50  0000 C CNN
+F 1 "10uF" V 1589 1800 50  0000 C CNN
+F 2 "PB170:C0603" H 1788 1650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf" H 1750 1800 50  0001 C CNN
+F 4 "C19702" V 1750 1800 50  0001 C CNN "LCSC"
+	1    1750 1800
+	0    1    1    0   
+$EndComp
+Text HLabel 3450 2050 3    50   Input ~ 0
+nI3
+Text HLabel 4750 2050 3    50   Input ~ 0
+nI2
+Wire Wire Line
+	9000 1150 9100 1150
+Wire Wire Line
+	9100 2000 9000 2000
+Wire Wire Line
+	8200 1150 7950 1150
+Wire Wire Line
+	7950 1150 7950 2000
+Wire Wire Line
+	7950 2000 8200 2000
+Text GLabel 1150 1400 0    50   Input ~ 0
+VCC
+Connection ~ 1550 1400
+Text GLabel 2200 1950 3    50   Input ~ 0
+GND
+Wire Wire Line
+	5300 1850 5100 1850
+Wire Wire Line
+	5100 1850 5100 1400
+Wire Wire Line
+	5100 1400 6150 1400
+Wire Wire Line
+	6150 1400 6150 2050
+Wire Wire Line
+	5900 2050 6150 2050
+Text HLabel 5950 2050 3    50   Input ~ 0
+nI1
+Wire Wire Line
+	1150 1400 1550 1400
+Wire Wire Line
+	9100 1150 9100 2000
+Wire Wire Line
+	2200 1700 2200 1950
+Text GLabel 7950 1600 0    50   Input ~ 0
+VCC
+Text GLabel 9100 1600 2    50   Input ~ 0
+GND
+$Comp
+L PB170:74HC08 U5
+U 1 1 60307A3D
+P 4500 2950
+F 0 "U5" H 4525 2683 50  0000 C CNN
+F 1 "74HC08" H 4525 2774 50  0000 C CNN
+F 2 "PB170:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL" H 4500 2950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC08D-653_C5593.pdf" H 4500 2950 50  0001 C CNN
+F 4 "C5593" H 4500 2950 50  0001 C CNN "LCSC"
+	1    4500 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L PB170:74HC08 U5
+U 2 1 60308805
+P 3450 2900
+F 0 "U5" H 3475 2633 50  0000 C CNN
+F 1 "74HC08" H 3475 2724 50  0000 C CNN
+F 2 "PB170:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL" H 3450 2900 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC08D-653_C5593.pdf" H 3450 2900 50  0001 C CNN
+F 4 "C5593" H 3450 2900 50  0001 C CNN "LCSC"
+	2    3450 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L PB170:74HC08 U5
+U 5 1 6030BE6E
+P 8600 2800
+F 0 "U5" H 8830 2846 50  0000 L CNN
+F 1 "74HC08" H 8830 2755 50  0000 L CNN
+F 2 "PB170:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL" H 8600 2800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC08D-653_C5593.pdf" H 8600 2800 50  0001 C CNN
+F 4 "C5593" H 8600 2800 50  0001 C CNN "LCSC"
+	5    8600 2800
+	0    -1   -1   0   
+$EndComp
+Text HLabel 3150 2900 0    50   Input ~ 0
+I1I2I3
+Wire Wire Line
+	3400 1850 3850 1850
+Wire Wire Line
+	3850 1850 3850 2850
+Wire Wire Line
+	3850 2850 3700 2850
+Wire Wire Line
+	4700 1850 5050 1850
+Wire Wire Line
+	5050 1850 5050 2900
+Wire Wire Line
+	5050 2900 4750 2900
+Wire Wire Line
+	3700 2950 4200 2950
+Wire Wire Line
+	4750 3000 6050 3000
+Wire Wire Line
+	6050 3000 6050 1850
+Wire Wire Line
+	6050 1850 5900 1850
+Wire Wire Line
+	8100 2800 7950 2800
+Wire Wire Line
+	7950 2800 7950 2250
+Connection ~ 7950 2000
+Wire Wire Line
+	9100 2800 9100 2000
+Connection ~ 9100 2000
+$Comp
+L PB170:74HC08 U5
+U 4 1 603D53A3
+P 3400 3550
+F 0 "U5" H 3425 3283 50  0000 C CNN
+F 1 "74HC08" H 3425 3374 50  0000 C CNN
+F 2 "PB170:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL" H 3400 3550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC08D-653_C5593.pdf" H 3400 3550 50  0001 C CNN
+F 4 "C5593" H 3400 3550 50  0001 C CNN "LCSC"
+	4    3400 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L PB170:74HC08 U5
+U 3 1 603D3EE1
+P 4500 3600
+F 0 "U5" H 4525 3333 50  0000 C CNN
+F 1 "74HC08" H 4525 3424 50  0000 C CNN
+F 2 "PB170:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL" H 4500 3600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC08D-653_C5593.pdf" H 4500 3600 50  0001 C CNN
+F 4 "C5593" H 4500 3600 50  0001 C CNN "LCSC"
+	3    4500 3600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3650 3600 4200 3600
+Wire Wire Line
+	6150 2050 6150 3650
+Wire Wire Line
+	6150 3650 4750 3650
+Connection ~ 6150 2050
+Wire Wire Line
+	5050 2900 5050 3550
+Wire Wire Line
+	5050 3550 4750 3550
+Connection ~ 5050 2900
+Wire Wire Line
+	4000 2050 4000 3500
+Wire Wire Line
+	4000 3500 3650 3500
+Connection ~ 4000 2050
+Text HLabel 3100 3550 0    50   Input ~ 0
+nI1I2nI3
+$Comp
+L PB170:74HC08 U13
+U 1 1 603E981C
+P 3400 4100
+F 0 "U13" H 3425 3833 50  0000 C CNN
+F 1 "74HC08" H 3425 3924 50  0000 C CNN
+F 2 "PB170:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL" H 3400 4100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC08D-653_C5593.pdf" H 3400 4100 50  0001 C CNN
+F 4 "C5593" H 3400 4100 50  0001 C CNN "LCSC"
+	1    3400 4100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5200 2050 5200 4150
+Wire Wire Line
+	5200 4150 3650 4150
+Connection ~ 5200 2050
+Wire Wire Line
+	3850 2850 3850 4050
+Wire Wire Line
+	3850 4050 3650 4050
+Connection ~ 3850 2850
+Text HLabel 3100 4100 0    50   Input ~ 0
+nI2I3
+$Comp
+L PB170:74HC08 U13
+U 2 1 60420127
+P 3400 4600
+F 0 "U13" H 3425 4333 50  0000 C CNN
+F 1 "74HC08" H 3425 4424 50  0000 C CNN
+F 2 "PB170:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL" H 3400 4600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC08D-653_C5593.pdf" H 3400 4600 50  0001 C CNN
+F 4 "C5593" H 3400 4600 50  0001 C CNN "LCSC"
+	2    3400 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L PB170:74HC08 U13
+U 5 1 60420F8D
+P 8600 3700
+F 0 "U13" V 8967 3700 50  0000 C CNN
+F 1 "74HC08" V 8876 3700 50  0000 C CNN
+F 2 "PB170:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL" H 8600 3700 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC08D-653_C5593.pdf" H 8600 3700 50  0001 C CNN
+F 4 "C5593" H 8600 3700 50  0001 C CNN "LCSC"
+	5    8600 3700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 3550 5050 4550
+Wire Wire Line
+	5050 4550 3650 4550
+Connection ~ 5050 3550
+Text HLabel 3100 4600 0    50   Input ~ 0
+nI1I2
+Text HLabel 4150 2950 1    50   Input ~ 0
+I1I2
+Wire Wire Line
+	3650 4650 6150 4650
+Wire Wire Line
+	6150 4650 6150 3650
+Connection ~ 6150 3650
+Wire Wire Line
+	7950 2800 7950 3700
+Wire Wire Line
+	7950 3700 8100 3700
+Connection ~ 7950 2800
+Wire Wire Line
+	9100 3700 9100 2800
+Connection ~ 9100 2800
+Wire Wire Line
+	3100 1650 4400 1650
+Wire Wire Line
+	4400 1650 5600 1650
+Connection ~ 4400 1650
+Wire Wire Line
+	3100 2250 2750 2250
+Wire Wire Line
+	2750 2250 2750 1650
+Wire Wire Line
+	2750 1650 3100 1650
+Connection ~ 3100 1650
+Wire Wire Line
+	3100 2250 4400 2250
+Connection ~ 3100 2250
+Wire Wire Line
+	4400 2250 5600 2250
+Connection ~ 4400 2250
+Wire Wire Line
+	5600 2250 7950 2250
+Connection ~ 5600 2250
+Connection ~ 7950 2250
+Wire Wire Line
+	7950 2250 7950 2000
+$EndSCHEMATC
